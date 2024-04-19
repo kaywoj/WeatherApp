@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="container">
+        <label for="zipCodeInput">Enter ZIP Code:</label>
+        <input type="text" id="zipCodeInput">
+        <button onclick="getTheForecast()">Get Forecast</button>
+        <div id="forecastOutput"></div>
+    </div>
+
+    <script src="Api.js"></script> <!-- execute the api file-->
+
+</body>
+</html>
